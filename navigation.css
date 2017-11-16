@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    background-color: gold;
+}
+a {
+    background-color: blue;
+    color: white;
+}
+.container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    
+    justify-content: left;
+}
+
+a:hover {
+    color: yellow;
+    background-color: red;
+}
+a:active {
+    padding: 0 5px;   
+}
